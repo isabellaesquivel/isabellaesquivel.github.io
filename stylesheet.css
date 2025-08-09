@@ -1,0 +1,53 @@
+/* Use a CSS selector to apply style(s) to at least one HTML tag.  */
+body {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  background-color: #63859d;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+/* Create at least one class, apply it to at least two elements, and style it.  */
+.title {
+  color: #082f4a;
+  font-family: papyrus, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.section-title {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Create at least one id, apply it to an element, and style it.  */
+#about-section {
+  padding: 40px;
+  border: 2px solid #082f4a;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 50%;
+}
+
+#hobbies-section {
+  padding: 20px;
+  border: 2px dashed #082f4a;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 30%;
+}
+
+/* Use a CSS selector to change the color of <a> when you hover the cursor over it. */
+a {
+  font-weight: bold;
+  color: #082f4a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffcc00;
+}
